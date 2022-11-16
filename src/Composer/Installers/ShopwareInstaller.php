@@ -16,6 +16,7 @@ class ShopwareInstaller extends BaseInstaller
         'theme'             => 'templates/{$name}/',
         'plugin'            => 'custom/plugins/{$name}/',
         'frontend-theme'    => 'themes/Frontend/{$name}/',
+        'platform-plugin'   => 'custom/plugins/{$name}/',
     );
 
     /**
